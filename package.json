@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "name": "merine-portfolio",
+  "version": "1.0.0",
+  "description": "responsive ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "merine",
+  "license": "MIT"
+}
+
