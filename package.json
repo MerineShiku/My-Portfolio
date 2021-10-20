@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "description": "responsive ",
   "main": "index.js",
-  "homepage": "https://Merineshiku.github.io/My-Portfolio",
+  "homepage": "https://MerineShiku.github.io/My-Portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy":"gh-pages -d dist"
