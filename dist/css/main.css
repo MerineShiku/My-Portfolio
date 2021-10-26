@@ -236,6 +236,14 @@ main {
   color: #fff;
   height: 60px; }
 
+.project_link {
+  text-transform: uppercase; }
+
+.project_link:hoover {
+  opacity: 0.5;
+  color: #eece1a;
+  transition: all 0.5s ease-out; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
