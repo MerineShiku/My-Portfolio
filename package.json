@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "node-sass": "^6.0.1"
+  },
+  "name": "merine-portfolio",
+  "version": "1.0.0",
+  "description": "responsive ",
+  "main": "index.js",
+  "homepage": "https://MerineShiku.github.io/My-Portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy":"gh-pages -d dist"
+  },
+  "publisher": "merine",
+  "author": "merine",
+  "license": "MIT"
+  
+}
